@@ -16,14 +16,18 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "box1 box2"
-    "box3 box4"
-    "box5 box6"
-    "box7 box8";
+    "box box"
+    "box box"
+    "box box"
+    "box box";
 }
 
 .jewellery {
-  width: 100%;
+  width: 65%;
+}
+
+ol li {
+  text-align: center;
 }
 
 h2 {
@@ -35,7 +39,7 @@ body {
   background-color: #fff;
 }
 
-ol li {
+.box {
   border-radius: 6px;
   border: 3px solid #987ffa;
   text-decoration: none;
@@ -51,6 +55,15 @@ ul li {
   align-items: center;
 }
 
-img {
-  width: 100%;
+ul li p {
+  font-weight: lighter;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: 8px;
+  background-color: #6f00e7;
+  color: #fff;
+}
+
+.cart {
+  background-color: #6f00e7;
 }
