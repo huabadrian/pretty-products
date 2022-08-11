@@ -7,3 +7,15 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+ol {
+  gap: 1rem;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "li li"
+    "li li "
+    ". . ";
+}
