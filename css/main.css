@@ -36,6 +36,7 @@ body {
 }
 
 ol li {
+  border-radius: 6px;
   border: 3px solid #987ffa;
   text-decoration: none;
 }
