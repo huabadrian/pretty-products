@@ -9,6 +9,7 @@ html {
 }
 
 ol {
+  text-decoration: none;
   gap: 1rem;
   list-style-type: none;
   padding: 0;
