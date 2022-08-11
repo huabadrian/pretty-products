@@ -14,11 +14,10 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "li li"
-    "li li"
-    "li li"
-    "li li"
-    "li li";
+    "box1 box2"
+    "box3 box4"
+    "box5 box6"
+    "box7 box8";
 }
 
 .jewellery {
@@ -48,4 +47,8 @@ ul li {
   padding: 1em;
   text-decoration: none;
   font-size: 1.125rem;
+}
+
+img {
+  width: 100%;
 }
