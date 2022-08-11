@@ -35,7 +35,12 @@ body {
 
 ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ol li {
+  border: 3px solid #987ffa;
 }
 
 ul li {
