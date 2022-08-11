@@ -33,12 +33,6 @@ body {
   background-color: #fff;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 ol li {
   border: 3px solid #987ffa;
 }
@@ -48,6 +42,9 @@ ul li {
   padding: 1em;
   text-decoration: none;
   font-size: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
